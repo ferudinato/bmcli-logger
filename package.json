@@ -1,6 +1,6 @@
 {
 	"name": "bmcli-logger",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"license": "MIT",
@@ -27,6 +27,10 @@
 	"scripts": {
 		"build": "tsup"
 	},
+	"bugs": {
+		"url": "https://github.com/ferudinato/bmcli-logger/issues"
+	},
+	"homepage": "https://github.com/ferudinato/bmcli-logger#readme",
 	"devDependencies": {
 		"tsup": "^7.3.0",
 		"typescript": "^5.2.2"
