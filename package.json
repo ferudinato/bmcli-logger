@@ -1,0 +1,30 @@
+{
+	"name": "bmcli-logger",
+	"version": "1.0.2",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"license": "MIT",
+	"keywords": [
+		"logger",
+		"web",
+		"console",
+		"frontend",
+		"browser",
+		"cli",
+		"node",
+		"terminal",
+		"log",
+		"logging",
+		"loglevel"
+	],
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup"
+	},
+	"devDependencies": {
+		"tsup": "^7.3.0",
+		"typescript": "^5.2.2"
+	}
+}
