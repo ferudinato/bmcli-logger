@@ -10,6 +10,6 @@ declare class Logger {
     warning(message: string): void;
 }
 
-declare const _default: Logger;
+declare const logger: Logger;
 
-export { _default as default };
+export { logger as default };
